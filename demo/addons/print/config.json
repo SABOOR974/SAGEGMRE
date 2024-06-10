@@ -1,0 +1,20 @@
+{
+  "js": [
+    "js/print.js",
+    "lib/easydrag/jquery.easyDrag.min.js",
+    "lib/html2pdf/html2pdf.bundle.min.js"
+  ],
+  "css": "style.css",
+  "type": "module",
+  "html": "print.html",
+  "target": "page-content-wrapper",
+  "options": {
+    "mviewer": {
+      "print_app": {
+        "printLayouts": "demo/addons/print/layouts/standard.json",
+        "ownerLogo": "https://geobretagne.fr/pub/logo/057_sage_gmre.jpg",
+        "ownerInfos": "Cette carte a été réalisée par le SAGE GMRE"
+      }
+    }
+  }
+}
